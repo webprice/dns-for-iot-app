@@ -3,7 +3,9 @@ windows client-side scrips and apps
 
 the guide:
 1. Point desired domain to these NS nameservers:
+
 http://fra.rastem.com.ua
+
 http://tor.rastem.com.ua
 
 2. run a client-side script which will sent post requests(json format) to http://fra.rastem.com.ua/PATH with specific data.

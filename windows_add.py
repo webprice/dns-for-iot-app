@@ -3,11 +3,11 @@ import requests
 
 #CHANGE TOKEN, EMAIL, APIKEY, DOMAIN,IPADDRESS TO YOUR DATA
 
-token= "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2NDI3MzQwMTV9.95qoHlW42DPoHXZnnvE2lkDjLUGFgC2_-wQZFfIULwM"
-email = "valery3@gmail.com"
-apikey = "s1UuaB2AFiz"
-ipaddress = "3.3.3.3"
-domain= "volodimirthegreat2.com"
+token= "your token here"
+email = "name@gmail.com"
+apikey = "your apikey here"
+ipaddress = "3.3.3.3" #your ip here
+domain= "your domain here"
 
 pload = {"email":email,"apikey":apikey,"ipaddress":ipaddress,"domain":domain}
 headers = {"Authorization": f"Bearer {token}"}

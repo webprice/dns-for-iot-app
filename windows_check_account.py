@@ -4,9 +4,9 @@ import requests
 
 #CHANGE TOKEN, EMAIL, APIKEY TO YOUR DATA
 
-token= "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2NDI3MzQwMTV9.95qoHlW42DPoHXZnnvE2lkDjLUGFgC2_-wQZFfIULwM"
-email = "valery3@gmail.com"
-apikey = "s1UuaB2AFiz"
+token= "your token here"
+email = "name@gmail.com"
+apikey = "your apikey here"
 
 pload = {"email":email,"apikey":apikey}
 headers = {"Authorization": f"Bearer {token}"}

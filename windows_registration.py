@@ -2,8 +2,8 @@ import pprint
 import requests
 
 #change email and password to yours data
-email = "valeryboss@gmail.com"
-password = "valerypasswd"
+email = "yourname@gmail.com"
+password = "yourpassword"
 
 
 dictToSend = {'email':email,'password': password}
